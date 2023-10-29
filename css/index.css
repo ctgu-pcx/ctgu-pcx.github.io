@@ -181,8 +181,18 @@ template {
 
 /* 引入外部字体 */
 @font-face{
-  font-family: 'MaShanZheng-Regular';
-  src : url('../ttf/MaShanZheng-Regular.ttf');
+  font-family: 'YuWeiShuFaXingShuJianTi';
+  src : url('../ttf/YuWeiShuFaXingShuJianTi-1.ttf');
+}
+
+@font-face{
+  font-family: 'Fira-code';
+  src : url('../ttf/FiraCode-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'DeYiHei';
+  src : url('../ttf/SmileySans-Oblique-3.otf');
 }
 .limit-one-line,
 #article-container .flink .flink-item-name,
@@ -1445,7 +1455,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 16px;
+  --global-font-size: 18px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #a4d8fa;
@@ -1489,7 +1499,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: MaShanZheng-Regular;
+  font-family: DeYiHei;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -1585,7 +1595,7 @@ a:hover {
 .site-name,
 #aside-content .author-info__name,
 #aside-content .author-info__description {
-  font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
+  font-family: YuWeiShuFaXingShuJianTi;
 }
 .is-center {
   text-align: center;
@@ -1756,8 +1766,8 @@ figure.highlight pre .javascript .function {
 }
 #article-container pre,
 #article-container code {
-  font-size: 14px;
-  font-family: Fira code, Comic Sans MS, Deja Vu Sans Mono !important;
+  font-size: 16px;
+  font-family: Fira-code !important;
 }
 #article-container code {
   padding: 2px 4px;
@@ -1784,7 +1794,7 @@ figure.highlight pre .javascript .function {
 #article-container figure.highlight figcaption,
 #article-container figure.highlight .caption {
   padding: 6px 0 2px 14px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1em;
 }
 #article-container figure.highlight figcaption a,
@@ -1830,7 +1840,7 @@ figure.highlight pre .javascript .function {
   height: 2.15em;
   background: var(--hltools-bg);
   color: var(--hltools-color);
-  font-size: 14px;
+  font-size: 16px;
 }
 #article-container .highlight-tools.closed ~ * {
   display: none;
@@ -1959,7 +1969,7 @@ figure.highlight pre .javascript .function {
   width: 100%;
   background: var(--hlexpand-bg);
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
 }
 #article-container .code-expand-btn i {
@@ -2121,7 +2131,7 @@ figure.highlight pre .javascript .function {
   height: 100%;
   vertical-align: top;
   text-align: center;
-  font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
+  font-family: YuWeiShuFaXingShuJianTi;
 }
 @media screen and (max-width: 768px) {
   .error404 #error-wrap .error-content .error-info {
